@@ -1,16 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
-<body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 
-    </script>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <!--Site wrapper (holds everything on the website)-->
+    <div>
+        <!--Header (holds the navihation and the top part of the page)-->
+        <section class="bg-light" style="height: 50rem;">
+            <header class="header bg-white ">
+                <nav class="navbar navbar-expand-lg ms-auto" id="navbar-example2">
+                    <a href="#" class="navbar-brand">My Logo</a>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="scrollspyProjectCards">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="scrollspyAbout">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="scrollspyContact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="">
+                <h1 class="primary-text-header">I'm Enoque <br /> Glad to see<br />you!</h1>
+                <p class="text-center" style="width: 40rem;">I’m a software developer! I can help you build a product , feature or website Look
+                    through some of my work and experience! If you like what you see and have a project you need coded,
+                    don’t hestiate to contact me.</p>
+                <p id="connect">LET'S CONNECT</p>
+                <ul id="social">
+                    <li>
+                        <a href="#">
+                            <img src="./img/twitter.png" alt="twitter link">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/Linkedin.png" alt="Linkedin link">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/m.png" alt="m link">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/github.png" alt="twitter link">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/m2.png" alt="m2 link">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Project cards (holds the main content of the page)-->
+        <section class="scrollspyProjectCards d-flex-column align-items-center">
+            <div class="card mb-3" style="width: 70rem;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/Snapshoot Portfolio wide screen 2.png" alt="Project picture"
+                            class="img-fluid rounded-start" style="width: 30rem; height: 30rem;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="card-title"> Tonic </h2>
+                                <div class="">
+                                    <p class="">
+                                        <span>CANOPY</span>
+                                    </p>
+                                    <img src="img/Counter.png" alt="..." class="">
+                                    <p class="">
+                                        <span> Back End Dev</span>
+                                    </p>
+                                    <img src="img/Counter.png" alt="..." class="">
+                                    <p class="">
+                                        <span>2022</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class=""> A daily selection of privately personalized reads; no
+                                accounts or sign-ups required.</p>
+                            <ul class="">
+                                <li class="">
+                                    <span> html </span>
+                                </li>
+                                <li class="">
+                                    <span> css </span>
+                                </li>
+                                <li class="">
+                                    <span> javaScript </span>
+                                </li>
+                            </ul>
+                            <div id="works-item-project-action">
+                                <button class="btn btn-primary">
+                                    See Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="width: 70rem;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/Snapshoot Portfolio wide screen 2.png" alt="Project picture"
+                            class="img-fluid rounded-start" style="width: 30rem; height: 30rem;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="card-title"> Tonic </h2>
+                                <div class="">
+                                    <p class="">
+                                        <span>CANOPY</span>
+                                    </p>
+                                    <img src="img/Counter.png" alt="..." class="">
+                                    <p class="">
+                                        <span> Back End Dev</span>
+                                    </p>
+                                    <img src="img/Counter.png" alt="..." class="">
+                                    <p class="">
+                                        <span>2022</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class=""> A daily selection of privately personalized reads; no
+                                accounts or sign-ups required.</p>
+                            <ul class="">
+                                <li class="">
+                                    <span> html </span>
+                                </li>
+                                <li class="">
+                                    <span> css </span>
+                                </li>
+                                <li class="">
+                                    <span> javaScript </span>
+                                </li>
+                            </ul>
+                            <div id="works-item-project-action">
+                                <button class="btn btn-primary">
+                                    See Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="width: 70rem;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/Snapshoot Portfolio wide screen 2.png" alt="Project picture"
+                            class="img-fluid rounded-start" style="width: 30rem; height: 30rem;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="card-title"> Tonic </h2>
+                                <div class="">
+                                    <p class="">
+                                        <span>CANOPY</span>
+                                    </p>
+                                    <img src="img/Counter.png" alt="..." class="">
+                                    <p class="">
+                                        <span> Back End Dev</span>
+                                    </p>
+                                    <img src="img/Counter.png" alt="..." class="">
+                                    <p class="">
+                                        <span>2022</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class=""> A daily selection of privately personalized reads; no
+                                accounts or sign-ups required.</p>
+                            <ul class="">
+                                <li class="">
+                                    <span> html </span>
+                                </li>
+                                <li class="">
+                                    <span> css </span>
+                                </li>
+                                <li class="">
+                                    <span> javaScript </span>
+                                </li>
+                            </ul>
+                            <div id="works-item-project-action">
+                                <button class="btn btn-primary">
+                                    See Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="width: 70rem;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/Snapshoot Portfolio wide screen 2.png" alt="Project picture"
+                            class="img-fluid rounded-start" style="width: 30rem; height: 30rem;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="card-title"> Tonic </h2>
+                                <div class="">
+                                    <p class="">
+                                        <span>CANOPY</span>
+                                    </p>
+                                    <img src="img/Counter.png" alt="..." class="">
+                                    <p class="">
+                                        <span> Back End Dev</span>
+                                    </p>
+                                    <img src="img/Counter.png" alt="..." class="">
+                                    <p class="">
+                                        <span>2022</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class=""> A daily selection of privately personalized reads; no
+                                accounts or sign-ups required.</p>
+                            <ul class="">
+                                <li class="">
+                                    <span> html </span>
+                                </li>
+                                <li class="">
+                                    <span> css </span>
+                                </li>
+                                <li class="">
+                                    <span> javaScript </span>
+                                </li>
+                            </ul>
+                            <div id="works-item-project-action">
+                                <button class="btn btn-primary">
+                                    See Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="scrollspyAbout">
+            <div id="top">
+                <h2 class="">About Myself</h2>
+                <p class=""> Hello I’m a software developer! I can help you build a product ,
+                    feature or website Look through some of my work and experience! If you like what you see and have a
+                    project you need coded, don’t hestiate to contact me.</p>
+                <div class="">
+                    <a class=""">LET'S CONNECT</a>
+                    <ul class=" list-none">
+                        <li>
+                            <a href="#">
+                                <img src="./img/twitter.png" alt="twitter link">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/Linkedin.png" alt="Linkedin link">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/m.png" alt="m link">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/github.png" alt="twitter link">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/m2.png" alt="m2 link">
+                            </a>
+                        </li>
+                        </ul>
+                </div>
+                <button class="btn btn-primary"> Get my resume </button>
+            </div>
+            <ul class="">
+                <li>
+                    <div class="">
+                        <div class="languages-frame-title">
+                            <img src="img/Disabled.png" alt="" class="">
+                            <h3 class=""> Languages</h3>
+                        </div>
+                        <ul class="">
+                            <li>
+                                <div class=""></div>
+                                <p>JavaScript</p>
+                            </li>
+                            <li>
+                                <div class=""></div>
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <div class=""></div>
+                                <p>CSS</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="">
+                        <img src="img/Disabled.png" alt="" class="">
+                        <h3 class="frameworks-frame-title-h3"> Frameworks</h3>
+                    </div>
+                </li>
+                <li class="habs">
+                    <div class="">
+                        <img src="img/Disabled.png" alt="" class="habs-frame-dropdown">
+                        <h3 class=""> Skills</h3>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="scrollspyContact">
+            <div class="contact-main">
+                <h2 class="contact-title">Contact me</h2>
+                <p>If you have an application you are interested in developing, a feature that you need built or a
+                    project that needs coding. I’d love to help with it </p>
+                <form class="">
+                    <div class="mb-3" style="width: 30rem;">
+                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp"
+                            placeholder="Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email" style="width: 30rem;" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <textarea name="user_message" id="msg" cols="30" rows="10" style="width: 30rem;" maxlength="500" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+        </script>
 </body>
+
 </html>
